@@ -53,10 +53,6 @@ I believe that both coding and gaming sharpen the same skills — focus, creativ
 ![VS Code](https://img.shields.io/badge/VS_Code-0078D4?style=for-the-badge&logo=visualstudiocode&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-000000?style=for-the-badge&logo=github&logoColor=white)
 
-### 💡 Currently Exploring
-![JavaScript](https://img.shields.io/badge/JavaScript-FCDC00?style=for-the-badge&logo=javascript&logoColor=black)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
 
 </div>
 
@@ -70,8 +66,6 @@ I believe that both coding and gaming sharpen the same skills — focus, creativ
 | 🏆 Certification | 🏛️ Platform | 📅 Status |
 |:----------------|:-------------|:-----------|
 | **Python Essentials** | Coursera / HackerRank | 🕒 In Progress |
-| **HTML & CSS for Beginners** | freeCodeCamp | 🕒 In Progress |
-| **SQL Basics** | Kaggle / SoloLearn | 🕒 In Progress |
 | **Git & GitHub Fundamentals** | LinkedIn Learning | 🕒 In Progress |
 
 </div>
@@ -79,16 +73,14 @@ I believe that both coding and gaming sharpen the same skills — focus, creativ
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
-## 🌱 What I’m Learning
-- 🌐 Web development fundamentals (HTML, CSS, JS)  
+## 🌱 What I’m Learning  
 - 🧠 Python for automation & data projects  
 - 🗄️ Basics of databases & SQL  
-- ☁️ Getting started with cloud tools like AWS Educate  
 
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
-## 🎯 Goals for 2025
+## 🎯 Goals for 2026
 - ✅ Build my **first full-stack project**  
 - 🧩 Contribute to an **open-source project**  
 - 🎮 Create a **gaming-related web app or bot**  
@@ -97,14 +89,7 @@ I believe that both coding and gaming sharpen the same skills — focus, creativ
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
-## 🎬 Fun Facts
-- 🍿 Love watching sci-fi and thriller movies  
-- 🎧 Addicted to music while coding  
-- 🎮 Gaming setup > everything 😎  
-- 🐍 Python was my first programming crush  
 
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
 ## 📫 Let's Connect!
 
@@ -135,23 +120,5 @@ I believe that both coding and gaming sharpen the same skills — focus, creativ
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
-### ☕ Support My Work
 
-💀 Debugging at 2 AM needs caffeine.  
-Fuel my next code boss fight!
-
-<a href="https://www.buymeacoffee.com/arnavjoshi" target="_blank">
-  <img src="https://img.shields.io/badge/Buy_Me_A_Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" alt="Buy Me A Coffee"/>
-</a>
-
-<div align="center">
-  🎧 Check out my coding playlist on Spotify 🎶  
-  <br><br>
-  <a href="https://open.spotify.com/playlist/YOUR_PLAYLIST_ID" target="_blank">
-    <img src="https://img.shields.io/badge/Spotify-1DB954?style=for-the-badge&logo=spotify&logoColor=white" alt="Spotify Playlist"/>
-  </a>
-</div>
-
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 </div>
