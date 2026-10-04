@@ -20,7 +20,7 @@
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
-Hey there! 👋 I'm **Arnav Joshi**, a **First-year student** at **PES University, Electronic City Campus**.  
+Hey there! 👋 I'm **Arnav Joshi**, a **Second-year student** at **PES University**.  
 I'm passionate about **coding**, **gaming**, and **watching movies** — always curious to learn something new and build cool projects along the way 🚀.
 
 ### 🎮 When I’m not coding...
