@@ -1,0 +1,65 @@
+name: Generate Pac-Man Contribution Graph
+
+on:
+  schedule:
+    - cron: "0 */12 * * *"
+
+  workflow_dispatch:
+
+  push:
+    branches:
+      - main
+    paths:
+      - "src/**"
+      - ".github/workflows/pacman.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Generate Pac-Man SVG
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_USERNAME: ${{ github.repository_owner }}
+        run: |
+          node src/generate.mjs
+
+      - name: Publish SVG to output branch
+        run: |
+          # The output branch doesn't exist on the very first run, so create it.
+          if git fetch origin output; then
+            git worktree add output-branch origin/output
+          else
+            git worktree add --detach output-branch
+            git -C output-branch checkout --orphan output
+            git -C output-branch rm -rf --quiet .
+          fi
+
+          cp dist/pacman.svg output-branch/pacman-contribution-graph.svg
+
+          cd output-branch
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add pacman-contribution-graph.svg
+
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+
+          git commit -m "chore: update Pac-Man contribution graph"
+          git push origin HEAD:output
